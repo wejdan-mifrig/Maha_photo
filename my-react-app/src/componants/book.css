@@ -1,0 +1,116 @@
+
+
+.b1 {
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 250px;
+gap: 120px;
+}
+
+
+
+
+.bo3 {
+  display: flex;
+  flex-direction: column;  
+  gap: 15px;
+  width: 300px;
+  background-color: rgb(154, 23, 158);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  border: 2px solid mediumorchid;
+  box-shadow:
+    0 4px 8px rgba(255, 105, 180, 0.4),
+    0 8px 16px rgba(199, 21, 133, 0.4),
+    0 12px 24px rgba(138, 43, 226, 0.4);
+opacity: 0;
+transform: translatex(-50px);
+animation: slidedown 2s ease forwards;
+}
+
+@keyframes slidedown {
+to{
+opacity: 1;
+transform: translatex(0);
+}
+}
+
+
+
+.bo3 label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+
+.bo3 input {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.bo3 button {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.bo4 table {
+width: 100%;
+}
+
+
+.bo4 th,
+.bo4 td {
+border: 1px solid rgb(67, 3, 51); 
+padding: 10px;
+text-align: left;
+color: rgb(132, 81, 181); 
+background-color: rgb(255, 255, 255);
+}
+
+
+.bo4 th {
+font-weight: bold;
+}
+
+
+.nn1{
+margin-right: 10px;
+color: white;
+background-color: rgb(197, 12, 214);
+}
+
+
+.bo4{
+background-color: rgb(154, 23, 158);
+padding: 10px;
+border-radius: 10px;
+border: 2px solid mediumorchid;
+  box-shadow:
+    0 4px 8px rgba(255, 105, 180, 0.4),
+    0 8px 16px rgba(199, 21, 133, 0.4),
+    0 12px 24px rgba(138, 43, 226, 0.4);
+opacity: 0;
+transform: translatex(50px);
+animation: slidedown 2s ease forwards;
+}
+
+@keyframes slidedown {
+to{
+opacity: 1;
+transform: translatex(0);
+}
+}
+
+
+h2{ color: white;}
+
+
+
